@@ -1,0 +1,3 @@
+name = HED
+description = Save HED annotations into the BIDS format
+category=Process:Markers:Save as HED Tags in BIDS
