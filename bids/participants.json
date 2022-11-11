@@ -1,0 +1,14 @@
+{
+	"participant_id":{
+		"LongName":"Participant identifier",
+		"Description":"Unique subject identifier"
+	},
+	"sex":{
+		"LongName":"Subject's sex, extracted from the EDF file",
+		"Description":"Subject's sex, extracted from the EDF file"
+	},
+	"birth_year":{
+		"LongName":"Subject's year of birth",
+		"Description":"Extracted from the EDF file. It it is repeated it is because it has different values among different EDF files"
+	}
+}

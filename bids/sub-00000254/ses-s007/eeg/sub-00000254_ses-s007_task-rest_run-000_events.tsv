@@ -1,0 +1,599 @@
+onset	duration	HED	channel	confidence
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000            
+46.0178	26.9828	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+88.0190	11.9857	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+125.0077	6.9828	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+180.0089	4.9733	EMG-artifact	FP1-F7	1.0000               
+185.9899	19.8637	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+206.0012	5.0326	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+230.0047	3.0054	Eye-movements-horizontal	FP1-F7	1.0000               
+235.9976	8.4588	Eye-movements-horizontal	FP1-F7	1.0000               
+244.4861	2.5133	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+253.0018	7.1725	Eye-movements-horizontal	FP1-F7	1.0000               
+260.9887	1.0255	Eye-movements-horizontal	FP1-F7	1.0000               
+268.4991	1.0018	Eye-movements-horizontal	FP1-F7	1.0000               
+275.5234	42.5015	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+365.9994	104.2738	Eye-movements-horizontal	FP1-F7	1.0000             
+472.1269	8.8796	Eye-movements-horizontal	FP1-F7	1.0000               
+489.0089	1.9976	Eye-movements-horizontal	FP1-F7	1.0000               
+494.0059	7.0065	Eye-movements-horizontal	FP1-F7	1.0000               
+502.7819	2.0035	Eye-movements-horizontal	FP1-F7	1.0000               
+508.0071	5.0089	Eye-movements-horizontal	FP1-F7	1.0000               
+518.0130	6.0048	Eye-movements-horizontal	FP1-F7	1.0000               
+527.0012	6.0107	Eye-movements-horizontal	FP1-F7	1.0000               
+543.0000	16.0166	Eye-movements-horizontal	FP1-F7	1.0000              
+563.0059	0.9959	Eye-movements-horizontal	FP1-F7	1.0000               
+577.0130	51.9680	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+641.4920	9.5258	Eye-movements-horizontal	FP1-F7	1.0000               
+653.9959	1.0136	Electrode-pops	FP1-F7	1.0000               
+670.5104	43.4499	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+717.0130	11.9799	Eye-movements-horizontal	FP1-F7	1.0000              
+752.0059	17.9965	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+784.9935	11.0136	Eye-movements-horizontal	FP1-F7	1.0000              
+816.0012	0.9958	Eye-movements-horizontal	FP1-F7	1.0000               
+825.9953	5.0029	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+837.9988	36.9176	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+882.9899	5.0089	Eye-movements-horizontal	FP1-F7	1.0000               
+899.0119	4.9851	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+906.9135	1.0966	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+924.9959	3.3847	Eye-movements-horizontal	FP1-F7	1.0000               
+932.0053	38.9923	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000         
+990.9947	1.9442	Eye-movements-horizontal	FP1-F7	1.0000               
+994.4404	0.2846	Electrode-pops	FP1-F7	1.0000               
+996.0006	2.0095	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000          
+1002.6680	0.2253	Electrode-pops	FP1-F7	1.0000              
+1006.0124	38.9686	Eye-movements-horizontal	FP1-F7	1.0000             
+1077.3977	0.2075	Electrode-pops	FP1-F7	1.0000              
+1082.5448	3.4558	Eye-movements-horizontal	FP1-F7	1.0000              
+1090.5056	1.0255	Eye-movements-horizontal	FP1-F7	1.0000              
+1095.1233	4.7303	Eye-movements-horizontal	FP1-F7	1.0000              
+1103.0071	26.0107	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000        
+1140.9976	28.0498	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000        
+1174.9947	68.5121	(Eye-movements-horizontal, EMG-artifact)	FP1-F7	1.0000        
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000             
+64.9899	4.0249	Electrode-pops	F7-T3	1.0000                 
+126.0154	5.9929	Electrode-pops	F7-T3	1.0000                
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000          
+180.0089	4.9733	EMG-artifact	F7-T3	1.0000                
+206.0012	5.0326	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000           
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000           
+232.0036	17.9016	Electrode-pops	F7-T3	1.0000               
+255.0231	5.9455	EMG-artifact	F7-T3	1.0000                
+261.0196	9.9763	Electrode-pops	F7-T3	1.0000                
+275.5311	8.0142	EMG-artifact	F7-T3	1.0000                
+286.3011	2.7327	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000           
+306.0403	4.8074	EMG-artifact	F7-T3	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	F7-T3	1.0000          
+389.4618	0.2193	Electrode-pops	F7-T3	1.0000                
+396.5691	0.2134	Electrode-pops	F7-T3	1.0000                
+409.5513	0.2489	Electrode-pops	F7-T3	1.0000                
+411.7327	0.4149	Electrode-pops	F7-T3	1.0000                
+413.2916	0.2075	Electrode-pops	F7-T3	1.0000                
+414.6728	0.2430	Electrode-pops	F7-T3	1.0000                
+465.6686	1.4464	Electrode-pops	F7-T3	1.0000                
+489.0089	1.9976	Eye-movements-horizontal	F7-T3	1.0000                
+653.9959	1.0136	Electrode-pops	F7-T3	1.0000                
+955.0925	6.2655	EMG-artifact	F7-T3	1.0000                
+963.6935	5.3527	EMG-artifact	F7-T3	1.0000                
+994.4404	0.2846	Electrode-pops	F7-T3	1.0000                
+1002.6680	0.2253	Electrode-pops	F7-T3	1.0000               
+1077.3977	0.2075	Electrode-pops	F7-T3	1.0000               
+1110.9775	6.3426	Electrode-pops	F7-T3	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000             
+19.0000	6.0047	EMG-artifact	T3-T5	1.0000                 
+64.9899	4.0249	Electrode-pops	T3-T5	1.0000                 
+126.0154	5.9929	Electrode-pops	T3-T5	1.0000                
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000          
+180.0089	4.9733	EMG-artifact	T3-T5	1.0000                
+206.0012	4.9970	EMG-artifact	T3-T5	1.0000                
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000           
+232.0036	17.9016	Electrode-pops	T3-T5	1.0000               
+255.0231	5.9455	EMG-artifact	T3-T5	1.0000                
+261.0196	9.9763	Electrode-pops	T3-T5	1.0000                
+275.5311	8.0142	EMG-artifact	T3-T5	1.0000                
+286.3011	2.7327	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000           
+306.0403	4.8074	EMG-artifact	T3-T5	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	T3-T5	1.0000          
+389.4618	0.2193	Electrode-pops	T3-T5	1.0000                
+396.5691	0.2134	Electrode-pops	T3-T5	1.0000                
+409.5513	0.2489	Electrode-pops	T3-T5	1.0000                
+411.7327	0.4149	Electrode-pops	T3-T5	1.0000                
+413.2916	0.2075	Electrode-pops	T3-T5	1.0000                
+414.6728	0.2430	Electrode-pops	T3-T5	1.0000                
+465.6686	1.4464	Electrode-pops	T3-T5	1.0000                
+653.9959	1.0136	Electrode-pops	T3-T5	1.0000                
+955.0925	6.2655	EMG-artifact	T3-T5	1.0000                
+963.6935	5.3527	EMG-artifact	T3-T5	1.0000                
+994.4404	0.2846	Electrode-pops	T3-T5	1.0000                
+1002.6680	0.2253	Electrode-pops	T3-T5	1.0000               
+1077.3977	0.2075	Electrode-pops	T3-T5	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000             
+19.0000	6.0047	EMG-artifact	T5-O1	1.0000                 
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000          
+180.0089	4.9733	EMG-artifact	T5-O1	1.0000                
+206.0012	4.9970	EMG-artifact	T5-O1	1.0000                
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000           
+232.0036	17.9016	Electrode-pops	T5-O1	1.0000               
+255.0231	5.9455	EMG-artifact	T5-O1	1.0000                
+261.0196	9.9763	Electrode-pops	T5-O1	1.0000                
+275.5311	8.0142	EMG-artifact	T5-O1	1.0000                
+286.3011	2.7327	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000           
+306.0403	4.8074	EMG-artifact	T5-O1	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	T5-O1	1.0000          
+389.4618	0.2193	Electrode-pops	T5-O1	1.0000                
+396.5691	0.2134	Electrode-pops	T5-O1	1.0000                
+409.5513	0.2489	Electrode-pops	T5-O1	1.0000                
+411.7327	0.4149	Electrode-pops	T5-O1	1.0000                
+413.2916	0.2075	Electrode-pops	T5-O1	1.0000                
+414.6728	0.2430	Electrode-pops	T5-O1	1.0000                
+465.6686	1.4464	Electrode-pops	T5-O1	1.0000                
+653.9959	1.0136	Electrode-pops	T5-O1	1.0000                
+955.0925	6.2655	EMG-artifact	T5-O1	1.0000                
+963.6935	5.3527	EMG-artifact	T5-O1	1.0000                
+994.4404	0.2846	Electrode-pops	T5-O1	1.0000                
+1002.6680	0.2253	Electrode-pops	T5-O1	1.0000               
+1077.3977	0.2075	Electrode-pops	T5-O1	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000            
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000            
+46.0178	26.9828	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+88.0190	11.9857	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+125.0077	6.9828	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+180.0089	4.9733	EMG-artifact	FP2-F8	1.0000               
+185.9899	19.8637	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+206.0012	5.0326	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+230.0047	3.0054	Eye-movements-horizontal	FP2-F8	1.0000               
+235.9976	8.4351	Eye-movements-horizontal	FP2-F8	1.0000               
+244.4861	2.5133	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+253.0018	7.1725	Eye-movements-horizontal	FP2-F8	1.0000               
+260.9887	1.0255	Eye-movements-horizontal	FP2-F8	1.0000               
+268.4991	1.0018	Eye-movements-horizontal	FP2-F8	1.0000               
+275.5471	42.4778	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+365.9994	104.2738	Eye-movements-horizontal	FP2-F8	1.0000             
+472.1269	8.8796	Eye-movements-horizontal	FP2-F8	1.0000               
+489.0089	1.9976	Eye-movements-horizontal	FP2-F8	1.0000               
+494.0059	7.0065	Eye-movements-horizontal	FP2-F8	1.0000               
+502.7819	2.0035	Eye-movements-horizontal	FP2-F8	1.0000               
+508.0071	5.0089	Eye-movements-horizontal	FP2-F8	1.0000               
+518.0130	6.0048	Eye-movements-horizontal	FP2-F8	1.0000               
+527.0012	6.0107	Eye-movements-horizontal	FP2-F8	1.0000               
+543.0000	16.0166	Eye-movements-horizontal	FP2-F8	1.0000              
+563.0059	0.9959	Eye-movements-horizontal	FP2-F8	1.0000               
+577.0130	51.9680	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+641.4920	9.5258	Eye-movements-horizontal	FP2-F8	1.0000               
+653.9959	1.0136	Electrode-pops	FP2-F8	1.0000               
+670.5104	43.4499	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+717.0130	11.9799	Eye-movements-horizontal	FP2-F8	1.0000              
+752.0059	17.9965	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+784.9935	11.0136	Eye-movements-horizontal	FP2-F8	1.0000              
+816.0012	0.9958	Eye-movements-horizontal	FP2-F8	1.0000               
+825.9953	5.0029	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+837.9988	36.9176	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+882.9899	5.0089	Eye-movements-horizontal	FP2-F8	1.0000               
+899.0119	4.9851	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+906.9135	1.0966	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+917.3610	0.2134	Electrode-pops	FP2-F8	1.0000               
+924.9959	3.3847	Eye-movements-horizontal	FP2-F8	1.0000               
+932.0053	38.9923	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000         
+990.9947	1.9442	Eye-movements-horizontal	FP2-F8	1.0000               
+994.4404	0.2846	Electrode-pops	FP2-F8	1.0000               
+996.0006	2.0095	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000          
+1002.6680	0.2253	Electrode-pops	FP2-F8	1.0000              
+1006.0124	38.9686	Eye-movements-horizontal	FP2-F8	1.0000             
+1077.3977	0.2075	Electrode-pops	FP2-F8	1.0000              
+1082.5448	3.4558	Eye-movements-horizontal	FP2-F8	1.0000              
+1090.5056	1.0255	Eye-movements-horizontal	FP2-F8	1.0000              
+1095.1233	4.7303	Eye-movements-horizontal	FP2-F8	1.0000              
+1103.0071	26.0107	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000        
+1140.9976	28.0498	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000        
+1174.9947	68.5121	(Eye-movements-horizontal, EMG-artifact)	FP2-F8	1.0000        
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000             
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000           
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000           
+244.4861	2.5133	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000           
+268.4991	1.0018	Eye-movements-horizontal	F8-T4	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	F8-T4	1.0000          
+389.4618	0.2193	Electrode-pops	F8-T4	1.0000                
+396.5691	0.2134	Electrode-pops	F8-T4	1.0000                
+409.5513	0.2489	Electrode-pops	F8-T4	1.0000                
+411.7327	0.4149	Electrode-pops	F8-T4	1.0000                
+413.2916	0.2075	Electrode-pops	F8-T4	1.0000                
+414.6728	0.2430	Electrode-pops	F8-T4	1.0000                
+653.9959	1.0136	Electrode-pops	F8-T4	1.0000                
+917.3610	0.2134	Electrode-pops	F8-T4	1.0000                
+994.4404	0.2846	Electrode-pops	F8-T4	1.0000                
+1002.6680	0.2253	Electrode-pops	F8-T4	1.0000               
+1077.3977	0.2075	Electrode-pops	F8-T4	1.0000               
+1110.9775	6.3426	Electrode-pops	F8-T4	1.0000               
+1199.3082	31.6894	Electrode-pops	F8-T4	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	T4-T6	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	T4-T6	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	T4-T6	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	T4-T6	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	T4-T6	1.0000           
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	T4-T6	1.0000          
+389.4618	0.2193	Electrode-pops	T4-T6	1.0000                
+396.5691	0.2134	Electrode-pops	T4-T6	1.0000                
+409.5513	0.2489	Electrode-pops	T4-T6	1.0000                
+411.7327	0.4149	Electrode-pops	T4-T6	1.0000                
+413.2916	0.2075	Electrode-pops	T4-T6	1.0000                
+414.6728	0.2430	Electrode-pops	T4-T6	1.0000                
+653.9959	1.0136	Electrode-pops	T4-T6	1.0000                
+994.4404	0.2846	Electrode-pops	T4-T6	1.0000                
+1002.6680	0.2253	Electrode-pops	T4-T6	1.0000               
+1077.3977	0.2075	Electrode-pops	T4-T6	1.0000               
+1199.3082	31.6894	Electrode-pops	T4-T6	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000             
+19.0000	6.0047	EMG-artifact	T6-O2	1.0000                 
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000           
+232.0036	17.9016	Electrode-pops	T6-O2	1.0000               
+261.0196	9.9763	Electrode-pops	T6-O2	1.0000                
+281.0018	36.9946	Electrode-pops	T6-O2	1.0000               
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	T6-O2	1.0000          
+366.0237	104.2502	Electrode-pops	T6-O2	1.0000              
+495.0356	158.3284	Electrode-pops	T6-O2	1.0000              
+653.9959	1.0136	Electrode-pops	T6-O2	1.0000                
+670.1778	234.8548	Electrode-pops	T6-O2	1.0000              
+929.0711	44.0309	Electrode-pops	T6-O2	1.0000               
+994.4404	0.2846	Electrode-pops	T6-O2	1.0000                
+1002.6680	0.2253	Electrode-pops	T6-O2	1.0000               
+1077.3977	0.2075	Electrode-pops	T6-O2	1.0000               
+1119.0788	8.5655	Electrode-pops	T6-O2	1.0000               
+1199.3082	31.6894	Electrode-pops	T6-O2	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000             
+64.9899	4.0249	Electrode-pops	A1-T3	1.0000                 
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000           
+255.0231	5.9455	EMG-artifact	A1-T3	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	A1-T3	1.0000          
+389.4618	0.2193	Electrode-pops	A1-T3	1.0000                
+396.5691	0.2134	Electrode-pops	A1-T3	1.0000                
+409.5513	0.2489	Electrode-pops	A1-T3	1.0000                
+411.7327	0.4149	Electrode-pops	A1-T3	1.0000                
+413.2916	0.2075	Electrode-pops	A1-T3	1.0000                
+414.6728	0.2430	Electrode-pops	A1-T3	1.0000                
+653.9959	1.0136	Electrode-pops	A1-T3	1.0000                
+994.4404	0.2846	Electrode-pops	A1-T3	1.0000                
+1002.6680	0.2253	Electrode-pops	A1-T3	1.0000               
+1051.2033	8.5062	Electrode-pops	A1-T3	1.0000               
+1077.3977	0.2075	Electrode-pops	A1-T3	1.0000               
+1119.0788	8.5655	Electrode-pops	A1-T3	1.0000               
+1199.3082	31.6894	Electrode-pops	A1-T3	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000             
+64.9899	4.0249	Electrode-pops	T3-C3	1.0000                 
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000           
+288.2810	0.7528	EMG-artifact	T3-C3	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	T3-C3	1.0000          
+389.4618	0.2193	Electrode-pops	T3-C3	1.0000                
+396.5691	0.2134	Electrode-pops	T3-C3	1.0000                
+409.5513	0.2489	Electrode-pops	T3-C3	1.0000                
+411.7327	0.4149	Electrode-pops	T3-C3	1.0000                
+413.2916	0.2075	Electrode-pops	T3-C3	1.0000                
+414.6728	0.2430	Electrode-pops	T3-C3	1.0000                
+653.9959	1.0136	Electrode-pops	T3-C3	1.0000                
+994.4404	0.2846	Electrode-pops	T3-C3	1.0000                
+1002.6680	0.2253	Electrode-pops	T3-C3	1.0000               
+1077.3977	0.2075	Electrode-pops	T3-C3	1.0000               
+1119.0788	8.5655	Electrode-pops	T3-C3	1.0000               
+1199.3082	31.6894	Electrode-pops	T3-C3	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	C3-CZ	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	C3-CZ	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	C3-CZ	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	C3-CZ	1.0000           
+288.2810	0.7528	EMG-artifact	C3-CZ	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	C3-CZ	1.0000          
+389.4618	0.2193	Electrode-pops	C3-CZ	1.0000                
+396.5691	0.2134	Electrode-pops	C3-CZ	1.0000                
+409.5513	0.2489	Electrode-pops	C3-CZ	1.0000                
+411.7327	0.4149	Electrode-pops	C3-CZ	1.0000                
+413.2916	0.2075	Electrode-pops	C3-CZ	1.0000                
+414.6728	0.2430	Electrode-pops	C3-CZ	1.0000                
+653.9959	1.0136	Electrode-pops	C3-CZ	1.0000                
+994.4404	0.2846	Electrode-pops	C3-CZ	1.0000                
+1002.6680	0.2253	Electrode-pops	C3-CZ	1.0000               
+1077.3977	0.2075	Electrode-pops	C3-CZ	1.0000               
+1199.3082	31.6894	Electrode-pops	C3-CZ	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	CZ-C4	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	CZ-C4	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	CZ-C4	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	CZ-C4	1.0000           
+288.2810	0.7528	EMG-artifact	CZ-C4	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	CZ-C4	1.0000          
+389.4618	0.2193	Electrode-pops	CZ-C4	1.0000                
+396.5691	0.2134	Electrode-pops	CZ-C4	1.0000                
+409.5513	0.2489	Electrode-pops	CZ-C4	1.0000                
+411.7327	0.4149	Electrode-pops	CZ-C4	1.0000                
+413.2916	0.2075	Electrode-pops	CZ-C4	1.0000                
+414.6728	0.2430	Electrode-pops	CZ-C4	1.0000                
+653.9959	1.0136	Electrode-pops	CZ-C4	1.0000                
+994.4404	0.2846	Electrode-pops	CZ-C4	1.0000                
+1002.6680	0.2253	Electrode-pops	CZ-C4	1.0000               
+1077.3977	0.2075	Electrode-pops	CZ-C4	1.0000               
+1199.3082	31.6894	Electrode-pops	CZ-C4	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	C4-T4	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	C4-T4	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	C4-T4	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	C4-T4	1.0000           
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	C4-T4	1.0000          
+389.4618	0.2193	Electrode-pops	C4-T4	1.0000                
+396.5691	0.2134	Electrode-pops	C4-T4	1.0000                
+409.5513	0.2489	Electrode-pops	C4-T4	1.0000                
+411.7327	0.4149	Electrode-pops	C4-T4	1.0000                
+413.2916	0.2075	Electrode-pops	C4-T4	1.0000                
+414.6728	0.2430	Electrode-pops	C4-T4	1.0000                
+653.9959	1.0136	Electrode-pops	C4-T4	1.0000                
+963.6935	5.3527	EMG-artifact	C4-T4	1.0000                
+994.4404	0.2846	Electrode-pops	C4-T4	1.0000                
+1002.6680	0.2253	Electrode-pops	C4-T4	1.0000               
+1077.3977	0.2075	Electrode-pops	C4-T4	1.0000               
+1199.3082	31.6894	Electrode-pops	C4-T4	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000          
+206.0012	5.0326	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000           
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000           
+255.0231	5.9455	EMG-artifact	T4-A2	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	T4-A2	1.0000          
+389.4618	0.2193	Electrode-pops	T4-A2	1.0000                
+396.5691	0.2134	Electrode-pops	T4-A2	1.0000                
+409.5513	0.2489	Electrode-pops	T4-A2	1.0000                
+411.7327	0.4149	Electrode-pops	T4-A2	1.0000                
+413.2916	0.2075	Electrode-pops	T4-A2	1.0000                
+414.6728	0.2430	Electrode-pops	T4-A2	1.0000                
+653.9959	1.0136	Electrode-pops	T4-A2	1.0000                
+963.6935	5.3527	EMG-artifact	T4-A2	1.0000                
+994.4404	0.2846	Electrode-pops	T4-A2	1.0000                
+1002.6680	0.2253	Electrode-pops	T4-A2	1.0000               
+1077.3977	0.2075	Electrode-pops	T4-A2	1.0000               
+1199.3082	31.6894	Electrode-pops	T4-A2	1.0000              
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000            
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000            
+46.0178	26.9828	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+88.0190	11.9857	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+125.0077	6.9828	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+180.0089	4.9733	EMG-artifact	FP1-F3	1.0000               
+185.9899	19.8637	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+206.0012	5.0326	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+230.0047	3.0054	Eye-movements-horizontal	FP1-F3	1.0000               
+235.9976	8.4588	Eye-movements-horizontal	FP1-F3	1.0000               
+244.4861	2.5133	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+253.0018	7.1725	Eye-movements-horizontal	FP1-F3	1.0000               
+260.9887	1.0255	Eye-movements-horizontal	FP1-F3	1.0000               
+268.4991	1.0018	Eye-movements-horizontal	FP1-F3	1.0000               
+275.5471	42.4778	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+365.9994	104.2738	Eye-movements-horizontal	FP1-F3	1.0000             
+472.1269	8.8796	Eye-movements-horizontal	FP1-F3	1.0000               
+489.0089	1.9976	Eye-movements-horizontal	FP1-F3	1.0000               
+494.0059	7.0065	Eye-movements-horizontal	FP1-F3	1.0000               
+502.7819	2.0035	Eye-movements-horizontal	FP1-F3	1.0000               
+508.0071	5.0089	Eye-movements-horizontal	FP1-F3	1.0000               
+518.0130	6.0048	Eye-movements-horizontal	FP1-F3	1.0000               
+527.0012	6.0107	Eye-movements-horizontal	FP1-F3	1.0000               
+543.0000	16.0166	Eye-movements-horizontal	FP1-F3	1.0000              
+563.0059	0.9959	Eye-movements-horizontal	FP1-F3	1.0000               
+577.0130	51.9680	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+641.4920	9.5258	Eye-movements-horizontal	FP1-F3	1.0000               
+653.9959	1.0136	Electrode-pops	FP1-F3	1.0000               
+670.5104	43.4499	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+717.0130	11.9799	Eye-movements-horizontal	FP1-F3	1.0000              
+752.0059	17.9965	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+784.9935	11.0136	Eye-movements-horizontal	FP1-F3	1.0000              
+816.0012	0.9958	Eye-movements-horizontal	FP1-F3	1.0000               
+825.9953	5.0029	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+837.9988	36.9176	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+882.9899	5.0089	Eye-movements-horizontal	FP1-F3	1.0000               
+899.0119	4.9851	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+906.9135	1.0966	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+924.9959	3.3847	Eye-movements-horizontal	FP1-F3	1.0000               
+932.0053	38.9923	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000         
+990.9947	1.9442	Eye-movements-horizontal	FP1-F3	1.0000               
+994.4404	0.2846	Electrode-pops	FP1-F3	1.0000               
+996.0006	2.0095	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000          
+1002.6680	0.2253	Electrode-pops	FP1-F3	1.0000              
+1006.0124	38.9686	Eye-movements-horizontal	FP1-F3	1.0000             
+1077.3977	0.2075	Electrode-pops	FP1-F3	1.0000              
+1082.5448	3.4558	Eye-movements-horizontal	FP1-F3	1.0000              
+1090.5056	1.0255	Eye-movements-horizontal	FP1-F3	1.0000              
+1095.1233	4.7303	Eye-movements-horizontal	FP1-F3	1.0000              
+1103.0071	26.0107	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000        
+1140.9976	28.0498	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000        
+1174.9947	68.5121	(Eye-movements-horizontal, EMG-artifact)	FP1-F3	1.0000        
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	F3-C3	1.0000             
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	F3-C3	1.0000           
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	F3-C3	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	F3-C3	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	F3-C3	1.0000           
+288.2810	0.7528	EMG-artifact	F3-C3	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	F3-C3	1.0000          
+389.4618	0.2193	Electrode-pops	F3-C3	1.0000                
+396.5691	0.2134	Electrode-pops	F3-C3	1.0000                
+409.5513	0.2489	Electrode-pops	F3-C3	1.0000                
+411.7327	0.4149	Electrode-pops	F3-C3	1.0000                
+414.6728	0.2430	Electrode-pops	F3-C3	1.0000                
+653.9959	1.0136	Electrode-pops	F3-C3	1.0000                
+994.4404	0.2846	Electrode-pops	F3-C3	1.0000                
+1002.6680	0.2253	Electrode-pops	F3-C3	1.0000               
+1077.3977	0.2075	Electrode-pops	F3-C3	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	C3-P3	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	C3-P3	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	C3-P3	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	C3-P3	1.0000           
+288.2810	0.7528	EMG-artifact	C3-P3	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	C3-P3	1.0000          
+389.4618	0.2193	Electrode-pops	C3-P3	1.0000                
+396.5691	0.2134	Electrode-pops	C3-P3	1.0000                
+409.5513	0.2489	Electrode-pops	C3-P3	1.0000                
+411.7327	0.4149	Electrode-pops	C3-P3	1.0000                
+414.6728	0.2430	Electrode-pops	C3-P3	1.0000                
+653.9959	1.0136	Electrode-pops	C3-P3	1.0000                
+994.4404	0.2846	Electrode-pops	C3-P3	1.0000                
+1002.6680	0.2253	Electrode-pops	C3-P3	1.0000               
+1077.3977	0.2075	Electrode-pops	C3-P3	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000           
+154.9994	3.9775	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000           
+260.9887	1.0255	Eye-movements-horizontal	P3-O1	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	P3-O1	1.0000          
+389.4618	0.2193	Electrode-pops	P3-O1	1.0000                
+396.5691	0.2134	Electrode-pops	P3-O1	1.0000                
+409.5513	0.2489	Electrode-pops	P3-O1	1.0000                
+411.7327	0.4149	Electrode-pops	P3-O1	1.0000                
+414.6728	0.2430	Electrode-pops	P3-O1	1.0000                
+653.9959	1.0136	Electrode-pops	P3-O1	1.0000                
+994.4404	0.2846	Electrode-pops	P3-O1	1.0000                
+1002.6680	0.2253	Electrode-pops	P3-O1	1.0000               
+1077.3977	0.2075	Electrode-pops	P3-O1	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000            
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000            
+46.0178	26.9828	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+88.0190	11.9857	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+125.0077	6.9828	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+180.0089	4.9733	EMG-artifact	FP2-F4	1.0000               
+185.9899	19.8637	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+206.0012	5.0326	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+230.0047	3.0054	Eye-movements-horizontal	FP2-F4	1.0000               
+235.9976	8.4588	Eye-movements-horizontal	FP2-F4	1.0000               
+244.4861	2.5133	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+253.0018	7.1725	Eye-movements-horizontal	FP2-F4	1.0000               
+260.9887	1.0255	Eye-movements-horizontal	FP2-F4	1.0000               
+268.4991	1.0018	Eye-movements-horizontal	FP2-F4	1.0000               
+275.5471	42.4778	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+365.9994	104.2738	Eye-movements-horizontal	FP2-F4	1.0000             
+472.1269	8.8796	Eye-movements-horizontal	FP2-F4	1.0000               
+489.0089	1.9976	Eye-movements-horizontal	FP2-F4	1.0000               
+494.0059	7.0065	Eye-movements-horizontal	FP2-F4	1.0000               
+502.7819	2.0035	Eye-movements-horizontal	FP2-F4	1.0000               
+508.0071	5.0089	Eye-movements-horizontal	FP2-F4	1.0000               
+518.0130	6.0048	Eye-movements-horizontal	FP2-F4	1.0000               
+527.0012	6.0107	Eye-movements-horizontal	FP2-F4	1.0000               
+543.0000	16.0166	Eye-movements-horizontal	FP2-F4	1.0000              
+563.0059	0.9959	Eye-movements-horizontal	FP2-F4	1.0000               
+577.0130	51.9680	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+641.4920	9.5258	Eye-movements-horizontal	FP2-F4	1.0000               
+670.5104	43.4499	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+717.0130	11.9799	Eye-movements-horizontal	FP2-F4	1.0000              
+752.0059	17.9965	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+784.9935	11.0136	Eye-movements-horizontal	FP2-F4	1.0000              
+816.0012	0.9958	Eye-movements-horizontal	FP2-F4	1.0000               
+825.9953	5.0029	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+837.9988	36.9176	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+882.9899	5.0089	Eye-movements-horizontal	FP2-F4	1.0000               
+899.0119	4.9851	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+906.9135	1.0966	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+924.9959	3.3847	Eye-movements-horizontal	FP2-F4	1.0000               
+932.0053	38.9923	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000         
+990.9947	1.9442	Eye-movements-horizontal	FP2-F4	1.0000               
+994.4404	0.2846	Electrode-pops	FP2-F4	1.0000               
+996.0006	2.0095	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000          
+1002.6680	0.2253	Electrode-pops	FP2-F4	1.0000              
+1006.0124	38.9686	Eye-movements-horizontal	FP2-F4	1.0000             
+1077.3977	0.2075	Electrode-pops	FP2-F4	1.0000              
+1082.5448	3.4558	Eye-movements-horizontal	FP2-F4	1.0000              
+1090.5056	1.0255	Eye-movements-horizontal	FP2-F4	1.0000              
+1095.1233	4.7303	Eye-movements-horizontal	FP2-F4	1.0000              
+1103.0071	26.0107	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000        
+1140.9976	28.0498	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000        
+1174.9947	68.5121	(Eye-movements-horizontal, EMG-artifact)	FP2-F4	1.0000        
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	F4-C4	1.0000             
+142.0059	2.9817	(Eye-movements-horizontal, EMG-artifact)	F4-C4	1.0000           
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	F4-C4	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	F4-C4	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	F4-C4	1.0000           
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	F4-C4	1.0000          
+389.4618	0.2193	Electrode-pops	F4-C4	1.0000                
+396.5691	0.2134	Electrode-pops	F4-C4	1.0000                
+409.5513	0.2489	Electrode-pops	F4-C4	1.0000                
+411.7327	0.4149	Electrode-pops	F4-C4	1.0000                
+414.6728	0.2430	Electrode-pops	F4-C4	1.0000                
+955.0925	6.2655	EMG-artifact	F4-C4	1.0000                
+963.6935	5.3527	EMG-artifact	F4-C4	1.0000                
+994.4404	0.2846	Electrode-pops	F4-C4	1.0000                
+1002.6680	0.2253	Electrode-pops	F4-C4	1.0000               
+1077.3977	0.2075	Electrode-pops	F4-C4	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	C4-P4	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	C4-P4	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	C4-P4	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	C4-P4	1.0000           
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	C4-P4	1.0000          
+389.4618	0.2193	Electrode-pops	C4-P4	1.0000                
+396.5691	0.2134	Electrode-pops	C4-P4	1.0000                
+409.5513	0.2489	Electrode-pops	C4-P4	1.0000                
+411.7327	0.4149	Electrode-pops	C4-P4	1.0000                
+414.6728	0.2430	Electrode-pops	C4-P4	1.0000                
+955.0925	6.2655	EMG-artifact	C4-P4	1.0000                
+994.4404	0.2846	Electrode-pops	C4-P4	1.0000                
+1002.6680	0.2253	Electrode-pops	C4-P4	1.0000               
+1077.3977	0.2075	Electrode-pops	C4-P4	1.0000               
+0.0178	1.3989	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000             
+9.0000	6.0166	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000             
+146.0154	8.4588	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000           
+160.0083	5.0030	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000           
+165.0196	14.9614	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000          
+217.8631	7.1488	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000           
+232.0036	17.9016	Electrode-pops	P4-O2	1.0000               
+261.0196	9.9763	Electrode-pops	P4-O2	1.0000                
+318.0670	47.7534	(Eye-movements-horizontal, EMG-artifact)	P4-O2	1.0000          
+366.0237	104.2502	Electrode-pops	P4-O2	1.0000              
+495.0356	158.2098	Electrode-pops	P4-O2	1.0000              
+670.1778	234.3806	Electrode-pops	P4-O2	1.0000              
+929.0711	44.0309	Electrode-pops	P4-O2	1.0000               
+994.4404	0.2846	Electrode-pops	P4-O2	1.0000                
+1002.6680	0.2253	Electrode-pops	P4-O2	1.0000               
+1077.3977	0.2075	Electrode-pops	P4-O2	1.0000               
+1199.3082	23.0943	Electrode-pops	P4-O2	1.0000              
