@@ -211,7 +211,7 @@ S = jsonwrite_var(json,~isempty(opts.indent));
 %--------------------------------------------------------------------------
 if isempty(filename)
     varargout = { S };
-else
+elsefx = dir([dn '*.mrk']);
     fid = fopen(filename,'wt');
     if fid == -1
         error('Unable to open file "%s" for writing.',filename);

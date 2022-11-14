@@ -2,29 +2,21 @@
 from pathlib import Path;
 import pandas as pd;
 import jsonUtils
+import numpy as np
+import math
 
-def createEvent(marks, bids_eventsfname):
-    print('Marks to add to tsv', marks)
+def createEvent(marks, bids_eventsfname, annotator = 'n/a'):
 
-    # %eliminar repetidos si hubiera
-    # umrks = {};
-    # while ~isempty(info)
-    #     ii = find(all(ismember(info, info(1,:)),2));
-    #     umrks = vertcat(umrks, info(1,:));
-    #     info(ii,:) = [];
-    # end
-    # info = umrks;
-    # for k=1:size(info,1)
-    #     for h=1:size(info,2)
-    #         if isempty(info{k,h}), info{k,h} = 'n/a'; end
-    #     end
-    # end
-    # tab = {};
-    # for k=1:size(info,1)
-    #     info{k,5} = '1.0';
-    #     tab{k,1} = [info{k,2} char(9) info{k,3} char(9) info{k,1} ...
-    #         char(9) 'All' char(9) info{k,5} char(9) info{k,4}];
-    # end
+    # Remove duplicates
+    seen = set()
+    def unique_generator(lst):
+        for item in lst:
+            tupled = tuple(item)
+            if tupled not in seen:
+                seen.add(tupled)
+                yield item
+    marks = list(unique_generator(marks))
+
 
     # Create file if it doesn't exist
     fle = Path(bids_eventsfname)
@@ -35,13 +27,35 @@ def createEvent(marks, bids_eventsfname):
 
     headers = ['onset', 'duration', 'annotation_type', 'channel', 'confidence', 'Annotator']
 
-
     for key in headers:
         if key not in tsv_read.columns:
             tsv_read[key] = 'n/a'
 
+    # Replace empty values with n/a
+    tsv_read.fillna('n/a', inplace=True)
+
+
+    order = ['annotation_type', 'onset', 'duration']
+    newRow = {'channel': 'All', 'confidence': '1', 'Annotator': annotator}
+    for line in marks:
+        for i, key in enumerate(order):
+            newRow[key] = line[i]
+
+        comparisons = False
+        for key in order:
+            value = type(tsv_read[key][0])(newRow[key])
+            newComparison = (value == tsv_read[key]) & tsv_read['Annotator'] ## Must be from the conversion that includes an annotator...
+            if (comparisons): comparisons *= newComparison.array
+            else: comparisons = newComparison.array
+
+        # Only add unique rows
+        if not comparisons.any():
+            tsv_read = tsv_read.append(newRow, ignore_index = True)
+
+
     with open(bids_eventsfname,'w') as write_tsv:
         write_tsv.write(tsv_read.to_csv(sep='\t', index=False))
+
 
     # Create accompanying JSON file
     fjson = bids_eventsfname.replace('.tsv', '.json')

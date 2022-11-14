@@ -1,58 +1,51 @@
 import os;
 import sys;
 
+from pathlib import Path;
+
 import tsvUtils
 import mrkUtils
 
 def mrkToEvents(edfFilePath):
 
     try:
-        *path, sub, ses, type, filename = os.path.normpath(edfFilePath).split(os.sep)
-        print(path, sub, ses, type, filename)
+        *base_dir, sub, ses, type, filename = os.path.normpath(edfFilePath).split(os.sep)
         isub = sub.startswith('sub-')
         ises = ses.startswith('ses-')
-        base_dir = os.path.join(*path, sub, ses, type)
-        print(base_dir)
 
     except Exception as e:
         print('This directory is not an EEG-BIDS structure')
-        print(e)
         return None
 
 
     bids_eventsfname =  edfFilePath.replace('_eeg.edf', '_events.tsv')
 
     # find all users who have made annotations
-    # if (os.listdir(base_dir).len != 0) & (base_dir[-1] != os.sep):
-    #     base_dir = [base_dir  filesep];
+    anywaveAnnotationsDir = os.path.join(*base_dir, 'derivatives', 'anywave')
 
-    anywaveAnnotationsDir = os.path.join(base_dir, 'derivatives', 'anywave')
-    print(anywaveAnnotationsDir)
-    # alld = dir([anywaveAnnotationsDir '*.*'])
-    # ii = find([alld.isdir])
-    # alld = alld(ii)
-    # nm = {alld.name}
-    # ii = find(ismember(nm, '.'))
-    # nm(ii) = []
-    # alld(ii) = []
-    # ii = find(ismember(nm, '..'))
-    # nm(ii) = []
-    # alld(ii) = []
-    # # get subject name and subject session
-    marks = []
-    # for k=1:length(alld):
-    #     dn = [anywave_annotations_dir alld(k).name filesep sub_name filesep ses_name filesep];
-    #     if exist([dn 'eeg'], 'dir')
-    #         dn = [dn 'eeg' filesep];
+    p = Path(anywaveAnnotationsDir)
 
-    #     fx = dir([dn '*.mrk']);
-    #     for h=1:length(fx):
-    #         mrks = mrkUtils.read([dn fx(h).name]);
-    #         mrks = horzcat(mrks, repmat({alld(k).name}, size(mrks,1), 1));
-    #         marks = vertcat(marks, mrks);
+    # All subdirectories in the current directory, not recursive.
+    for f in filter(Path.is_dir, p.iterdir()):
+        derivativesDir = os.path.join(anywaveAnnotationsDir, f.name, sub, ses, type) # get subject name and subject session
 
-    tsvUtils.createEvent(marks, bids_eventsfname)
+        def checkIfMRK(f): 
+            return f.name.endswith('.mrk')
 
+
+        marks = []
+        derivativesDirPath = Path(derivativesDir)
+        for mrkfile in filter(checkIfMRK, derivativesDirPath.iterdir()):
+
+            try:
+                mrks = mrkUtils.read(mrkfile)
+                marks = marks + mrks
+                print("Got .mrk file for annotator", f.name)
+
+            except IOError:
+                print("Error: No .mrk file for annotator", f.name)
+
+        tsvUtils.createEvent(marks, bids_eventsfname, f.name)
 
 
 # Run with command line argument

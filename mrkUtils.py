@@ -1,18 +1,22 @@
-def read(fname):
+def read(filepath):
     mrks = []
     try:
-        fid = open(fname, 'r')
+        fid = open(filepath, 'r')
         lines = fid.readlines()
         fid.close()
 
     except Exception as e:
+        print(e)
         return
 
 
-    if (lines[0].trim() !=  '// AnyWave Marker File'):
-        print('Not an AnyWave marker file...')
+    # Check if marker file
+    if (lines[0].strip() !=  '// AnyWave Marker File'):
         return
+    
+    # Grab marker info
+    for line in lines[1:]: 
+        [label, dummy, start, duration] = line.split()
+        mrks.append([label, start, duration])
 
-    # [label, dummy, start, duration] = textread(fname, '%s %d %f %f', 'delimiter', char(9), 'headerlines', 1);
-
-    # mrks = horzcat(label, cellfun(@num2str, num2cell(start),'UniformOutput',false), cellfun(@num2str, num2cell(duration),'UniformOutput',false));
+    return mrks
