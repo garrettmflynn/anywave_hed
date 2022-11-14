@@ -8,7 +8,13 @@ try
     ses_name = dn{ises};
     ii = strfind(pp,sub_name);
     base_dir = pp(1:ii-1);
-catch
+    disp(dn)
+    disp(isub)
+    disp(dn{isub})
+    disp(ii)
+    disp(pp)
+    disp(base_dir)
+ catch
     disp('This directory is not an EEG-BIDS structure');
     return
 end
@@ -20,6 +26,8 @@ if ~isempty(base_dir) && ~isequal(base_dir(end), filesep)
     base_dir = [base_dir  filesep];
 end
 anywave_annotations_dir = [base_dir 'derivatives' filesep 'anywave' filesep];
+
+disp(anywave_annotations_dir)
 
 alld = dir([anywave_annotations_dir '*.*']);
 ii = find([alld.isdir]);
