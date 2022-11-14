@@ -2,9 +2,7 @@
  An AnyWave plugin to place HED tags into the BIDS format
 
 ## Description
-Currently, this plugin is a **test** Python plugin for the AnyWave annotation software. If running correctly, it should print messages to the console from Anywave.
-
-We are in the process of creating a Python version of a working MATLAB plugin for converting .mrk to BIDS _events.tsv files.
+This plugin converts AnyWave's native .mrk files to BIDS _events.tsv files after closing the program.
 
 ## How to Install
 > A Python plugin is a folder located in the user home dir.
@@ -12,11 +10,25 @@ We are in the process of creating a Python version of a working MATLAB plugin fo
 > - **Linux:** /home/username/AnyWave/Plugins/Python
 > - **MacOS:** /users/username/AnyWave/Plugins/Python
 
-Once added to the correct folder, you can run this plugin under Processes/Markers/Save as HED Tags in BIDS
+Once added to the correct folder, the plugin will show up under the Processes/Markers/Save as HED Tags in BIDS.
 
-## Future Work
-- Convert [anywave_mrk_to_events_tsv.m](./anywave_mrk_to_events_tsv.m) from MATLAB to Python, which will allow us to convert AnyWave's native .mrk annotation files to appropriate BIDS annotations.
+### Creating and Linking a Virtual Environment
+1. Create the virtual environment
+```
+Python3 -m venv  c:\dev\venv\anywave
+```
 
+2. Activate the virtual environment
+```
+c:\dev\venv\anywave/Scripts/activate
+```
+
+3. Install the anywave package from this repository
+```
+pip install anywave_package-1.0-py3-none-any.whl
+```
+
+4. Link the virtual environment in the AnyWave preferences
 
 ## Notes
 ### Debug Mode
