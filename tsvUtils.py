@@ -57,9 +57,4 @@ def createEvent(marks, bids_eventsfname, annotator = 'n/a'):
         write_tsv.write(tsv_read.to_csv(sep='\t', index=False))
 
 
-    # Create accompanying JSON file
-    fjson = bids_eventsfname.replace('.tsv', '.json')
-    jsonUtils.createEvent(fjson)
-
-
 

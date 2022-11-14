@@ -20,12 +20,12 @@ Python3 -m venv  c:\dev\venv\anywave
 
 2. Activate the virtual environment
 ```
-c:\dev\venv\anywave/Scripts/activate
+c:\dev\venv\anywave\Scripts\activate
 ```
 
-3. Install the anywave package from this repository
+3. Install the AnyWave Plugin API to the environment
 ```
-pip install anywave_package-1.0-py3-none-any.whl
+pip install anywave-plugin-api
 ```
 
 4. Link the virtual environment in the AnyWave preferences

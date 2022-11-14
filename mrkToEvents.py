@@ -6,7 +6,7 @@ from pathlib import Path;
 import tsvUtils
 import mrkUtils
 
-def mrkToEvents(edfFilePath):
+def convert(edfFilePath):
 
     try:
         *base_dir, sub, ses, type, filename = os.path.normpath(edfFilePath).split(os.sep)
@@ -24,6 +24,8 @@ def mrkToEvents(edfFilePath):
     anywaveAnnotationsDir = os.path.join(*base_dir, 'derivatives', 'anywave')
 
     p = Path(anywaveAnnotationsDir)
+
+    finalData = False
 
     # All subdirectories in the current directory, not recursive.
     for f in filter(Path.is_dir, p.iterdir()):
@@ -45,9 +47,10 @@ def mrkToEvents(edfFilePath):
             except IOError:
                 print("Error: No .mrk file for annotator", f.name)
 
-        tsvUtils.createEvent(marks, bids_eventsfname, f.name)
+        finalData = tsvUtils.createEvent(marks, bids_eventsfname, f.name)
 
+    return finalData
 
-# Run with command line argument
+# If run with command line argument
 name = sys.argv[1]
-mrkToEvents(name)
+if name: mrkToEvents(name)

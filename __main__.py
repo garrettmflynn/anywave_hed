@@ -1,27 +1,32 @@
 import anywave, sys
+
+import mrkToEvents
+
+print('Starting plugin... (anywave_hed)')
 anywave.init(sys.argv)
-print('Starting AnyWave HED plugin!')
 
-# show anywave properties
 properties = anywave.get_props()
-print('Properties', properties)
+filePath =  properties['bids_file_path']
+const data = mrkToEvents.convert(filePath)
 
-# assign valid tags from the HED-SCORE library
-scoreTags = ['seizure', 'EI' ] # TODO: Replace this with the actual list
-cfg = {
-    'labels': scoreTags
-}
+print(data)
 
-# get specified markers from the current AnyWave BIDS dataset
-filteredmarkers = anywave.get_markers(cfg)
+# # assign valid tags from the HED-SCORE library
+# scoreTags = ['seizure', 'EI' ] # TODO: Replace this with the actual list
+# cfg = {
+#     'labels': scoreTags
+# }
 
-if filteredmarkers:
-    print('got filtered!')
-    print(filteredmarkers)
+# # get specified markers from the current AnyWave BIDS dataset
+# filteredmarkers = anywave.get_markers(cfg)
 
-else:
-    print('no markers with the following labels:', scoreTags)
-    markers = anywave.get_markers()
-    print('showing all markers', markers)
+# if filteredmarkers:
+#     print('got filtered!')
+#     print(filteredmarkers)
 
-# TODO: Add these markers to the BIDS dataset
+# else:
+#     print('no markers with the following labels:', scoreTags)
+#     markers = anywave.get_markers()
+#     print('showing all markers', markers)
+
+# # TODO: Add these markers to the BIDS dataset
