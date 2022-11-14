@@ -42,7 +42,8 @@ def createEvent(marks, bids_eventsfname, annotator = 'n/a'):
             newRow[key] = line[i]
 
         comparisons = False
-        for key in order:
+        for i, key in enumerate(order):
+            print(key, tsv_read[key], newRow[key])
             value = type(tsv_read[key][0])(newRow[key])
             newComparison = (value == tsv_read[key]) & tsv_read['Annotator'] ## Must be from the conversion that includes an annotator...
             if (comparisons): comparisons *= newComparison.array
@@ -55,6 +56,8 @@ def createEvent(marks, bids_eventsfname, annotator = 'n/a'):
 
     with open(bids_eventsfname,'w') as write_tsv:
         write_tsv.write(tsv_read.to_csv(sep='\t', index=False))
+
+    return tsv_read
 
 
 

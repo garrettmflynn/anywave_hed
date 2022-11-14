@@ -7,7 +7,7 @@ anywave.init(sys.argv)
 
 properties = anywave.get_props()
 filePath =  properties['bids_file_path']
-const data = mrkToEvents.convert(filePath)
+data = mrkToEvents.convert(filePath)
 
 print(data)
 

@@ -16,7 +16,10 @@ def read(filepath):
     
     # Grab marker info
     for line in lines[1:]: 
-        [label, dummy, start, duration] = line.split()
-        mrks.append([label, start, duration])
+        mrk = line.split()
+        del mrk[-3] # label, _, start, duration
+
+        print(mrk[:-2])
+        mrks.append([' '.join(mrk[:-2]), *mrk[-2:]])
 
     return mrks

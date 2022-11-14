@@ -7,9 +7,11 @@ import tsvUtils
 import mrkUtils
 
 def convert(edfFilePath):
+    edfFilePath = os.path.normpath(edfFilePath)
+    edfFilePath = os.path.relpath(edfFilePath, os.getcwd())
 
     try:
-        *base_dir, sub, ses, type, filename = os.path.normpath(edfFilePath).split(os.sep)
+        *base_dir, sub, ses, type, filename = edfFilePath.split(os.sep)
         isub = sub.startswith('sub-')
         ises = ses.startswith('ses-')
 
@@ -22,6 +24,13 @@ def convert(edfFilePath):
 
     # find all users who have made annotations
     anywaveAnnotationsDir = os.path.join(*base_dir, 'derivatives', 'anywave')
+
+
+    try:
+        mrkUtils.read(anywaveAnnotationsDir)
+
+    except IOError:
+        print("Error: No annotations directory:", anywaveAnnotationsDir)
 
     p = Path(anywaveAnnotationsDir)
 
@@ -53,4 +62,4 @@ def convert(edfFilePath):
 
 # If run with command line argument
 name = sys.argv[1]
-if name: mrkToEvents(name)
+if name: convert(name)
