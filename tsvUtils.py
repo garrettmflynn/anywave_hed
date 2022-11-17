@@ -32,7 +32,7 @@ def updateEvent(marks, bids_eventsfname, annotator = 'n/a'):
     tsv_read.fillna('n/a', inplace=True)
 
 
-    order = ['annotation_type', False, 'onset', 'duration', 'channel', 'confidence']
+    order = ['annotation_type', False, 'onset', 'duration', 'channel', 'confidence', 'Annotator']
     for line in marks:
 
         newRow = {'channel': 'All', 'confidence': '1', 'Annotator': annotator} # Produce a new row

@@ -20,17 +20,15 @@ def convert(edfFilePath):
         print('This directory is not an EEG-BIDS structure')
         return None
 
-
-    automatedAnnotatorName = 'AUTOMATED'
     
 
     bids_eventsfname =  edfFilePath.replace('_eeg.edf', '_events.tsv')
     anywaveAnnotationsDir = os.path.join(*base_dir, 'derivatives', 'anywave')
     autoannotations_path =  edfFilePath.replace('_eeg.edf', '_eeg.artf')
-    autoMRKPath = os.path.join(anywaveAnnotationsDir, automatedAnnotatorName, sub, ses, type, filename.replace('_eeg.edf', '.mrk')) # get subject name and subject session
+    autoMRKSuffix = os.path.join(sub, ses, type, filename.replace('_eeg.edf', '.mrk')) # get subject name and subject session
 
     # HANDLE AUTOMATIC ANNOTATIONS
-    artfUtils.toMRK(autoannotations_path, autoMRKPath)
+    artfUtils.toMRK(autoannotations_path, [anywaveAnnotationsDir, autoMRKSuffix])
 
     # find all users who have made annotations
     # check existence of directory
@@ -58,7 +56,7 @@ def convert(edfFilePath):
                 mrks = mrkUtils.read(mrkfile)
 
                 # Augment automatic annotations with additional metadata
-                if (f.name == automatedAnnotatorName): mrks = artfUtils.get(autoannotations_path)
+                if (f.name[0] == '&'): mrks = artfUtils.get(autoannotations_path, 'all', f.name)
                 else: mrks = mrkUtils.read(mrkfile)                        
 
                 marks = marks + mrks
