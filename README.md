@@ -30,6 +30,11 @@ pip install anywave-plugin-api
 
 4. Link the virtual environment in the AnyWave preferences
 
+
+## Key Features
+- The plugin will automatically sync the _events.tsv file to the .mrk file in the associated `derivatives/anywave` folder.
+- The plugin will find automated artifact annotations (.artf) next to the EEG-BIDS .edf file and add them to both the .mrk and the _events.tsv file.
+
 ## Notes
 ### Debug Mode
 https://gitlab-dynamap.timone.univ-amu.fr/anywave/anywave/-/wikis/Py_debug

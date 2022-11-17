@@ -1,11 +1,8 @@
 
 from pathlib import Path;
 import pandas as pd;
-import jsonUtils
-import numpy as np
-import math
 
-def createEvent(marks, bids_eventsfname, annotator = 'n/a'):
+def updateEvent(marks, bids_eventsfname, annotator = 'n/a'):
 
     # Remove duplicates
     seen = set()
@@ -35,19 +32,22 @@ def createEvent(marks, bids_eventsfname, annotator = 'n/a'):
     tsv_read.fillna('n/a', inplace=True)
 
 
-    order = ['annotation_type', 'onset', 'duration']
-    newRow = {'channel': 'All', 'confidence': '1', 'Annotator': annotator}
+    order = ['annotation_type', False, 'onset', 'duration', 'channel', 'confidence']
     for line in marks:
-        for i, key in enumerate(order):
-            newRow[key] = line[i]
+
+        newRow = {'channel': 'All', 'confidence': '1', 'Annotator': annotator} # Produce a new row
+
+        for i, value in enumerate(line):
+            key = order[i]
+            if (key): newRow[key] = value
 
         comparisons = False
         for i, key in enumerate(order):
-            print(key, tsv_read[key], newRow[key])
-            value = type(tsv_read[key][0])(newRow[key])
-            newComparison = (value == tsv_read[key]) & tsv_read['Annotator'] ## Must be from the conversion that includes an annotator...
-            if (comparisons): comparisons *= newComparison.array
-            else: comparisons = newComparison.array
+            if (key):
+                value = type(tsv_read[key][0])(newRow[key])
+                newComparison = (value == tsv_read[key]) & tsv_read['Annotator'] ## Must be from the conversion that includes an annotator...
+                if (comparisons): comparisons *= newComparison.array
+                else: comparisons = newComparison.array
 
         # Only add unique rows
         if not comparisons.any():

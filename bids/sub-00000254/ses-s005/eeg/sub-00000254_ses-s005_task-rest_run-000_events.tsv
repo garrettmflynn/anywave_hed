@@ -23,3 +23,6 @@ onset	duration	annotation_type	channel	confidence	Annotator
 22.9737	7.0951	eyem	F4-C4	1.0	n/a
 136.7987	3.313	eyem	F4-C4	1.0	n/a
 145.0133	3.0365	eyem	F4-C4	1.0	n/a
+22.9	3.35	eyem	Fp1,Fp2	0.97	AUTOMATED
+136.7	7.3	musc	All	0.93	AUTOMATED
+145.4	2.5	elec	All	0.87	AUTOMATED

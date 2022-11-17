@@ -5,6 +5,7 @@ from pathlib import Path;
 
 import tsvUtils
 import mrkUtils
+import artfUtils
 
 def convert(edfFilePath):
     edfFilePath = os.path.normpath(edfFilePath)
@@ -20,18 +21,22 @@ def convert(edfFilePath):
         return None
 
 
+    automatedAnnotatorName = 'AUTOMATED'
+    
+
     bids_eventsfname =  edfFilePath.replace('_eeg.edf', '_events.tsv')
+    anywaveAnnotationsDir = os.path.join(*base_dir, 'derivatives', 'anywave')
+    autoannotations_path =  edfFilePath.replace('_eeg.edf', '_eeg.artf')
+    autoMRKPath = os.path.join(anywaveAnnotationsDir, automatedAnnotatorName, sub, ses, type, filename.replace('_eeg.edf', '.mrk')) # get subject name and subject session
+
+    # HANDLE AUTOMATIC ANNOTATIONS
+    artfUtils.toMRK(autoannotations_path, autoMRKPath)
 
     # find all users who have made annotations
-    anywaveAnnotationsDir = os.path.join(*base_dir, 'derivatives', 'anywave')
-
-
-    try:
-        mrkUtils.read(anywaveAnnotationsDir)
-
-    except IOError:
-        print("Error: No annotations directory:", anywaveAnnotationsDir)
-
+    # check existence of directory
+    if not os.path.isdir(anywaveAnnotationsDir):
+         print("Error: No annotations directory:", anywaveAnnotationsDir)
+        
     p = Path(anywaveAnnotationsDir)
 
     finalData = False
@@ -49,14 +54,20 @@ def convert(edfFilePath):
         for mrkfile in filter(checkIfMRK, derivativesDirPath.iterdir()):
 
             try:
+                
                 mrks = mrkUtils.read(mrkfile)
+
+                # Augment automatic annotations with additional metadata
+                if (f.name == automatedAnnotatorName): mrks = artfUtils.get(autoannotations_path)
+                else: mrks = mrkUtils.read(mrkfile)                        
+
                 marks = marks + mrks
-                print("Got .mrk file for annotator", f.name)
+                print("Transferred .mrk file for annotator", f.name)
 
-            except IOError:
-                print("Error: No .mrk file for annotator", f.name)
-
-        finalData = tsvUtils.createEvent(marks, bids_eventsfname, f.name)
+            except Exception as e:
+                print("Error: No .mrk file for annotator", f.name, e)
+    
+        finalData = tsvUtils.updateEvent(marks, bids_eventsfname, f.name)
 
     return finalData
 
